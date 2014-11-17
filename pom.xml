@@ -113,7 +113,7 @@
             <configuration>
               <executable>echo</executable>
               <arguments>
-                <argument>${java.home}</argument>
+                <argument>Plugin jar: ${plugin.jar.path}</argument>
               </arguments>
             </configuration>
           </execution>
