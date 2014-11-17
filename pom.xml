@@ -73,13 +73,13 @@
       <version>1.7.1</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
+    <!-- dependency>
       <groupId>java</groupId>
       <artifactId>plugin</artifactId>
       <version>1.5</version>
       <scope>system</scope>
       <systemPath>${plugin.jar.path}</systemPath>
-    </dependency>
+    </dependency -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
