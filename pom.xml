@@ -73,13 +73,13 @@
       <version>1.7.1</version>
       <scope>provided</scope>
     </dependency>
-    <!-- dependency>
+    <dependency>
       <groupId>java</groupId>
       <artifactId>plugin</artifactId>
       <version>1.5</version>
       <scope>system</scope>
       <systemPath>${plugin.jar.path}</systemPath>
-    </dependency -->
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -113,7 +113,7 @@
             <configuration>
               <executable>echo</executable>
               <arguments>
-                <argument>Plugin jar: ${plugin.jar.path}</argument>
+                <argument>Plugin jar path: ${plugin.jar.path}</argument>
               </arguments>
             </configuration>
           </execution>
